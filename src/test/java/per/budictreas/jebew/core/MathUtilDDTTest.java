@@ -28,7 +28,6 @@ public class MathUtilDDTTest {
 //    }
 
     //Bắt ngoại lệ khi đưa data cà chớn!!!
-    //@Test(expected = tên ngoại lệ.class) JUnit hoy, JUnit hok xài vậy!!!
     @Test
     //@SuppressWarnings("ResultOfMethodCallIgnored")
     public void testGetFactorialGivenWrongArgThrowException() {

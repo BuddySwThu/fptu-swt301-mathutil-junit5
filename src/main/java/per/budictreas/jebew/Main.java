@@ -6,14 +6,11 @@ public class Main {
     public static void main(String[] args) {
         System.out.println("   5! = " + MathUtil.getFactorial(5));
         System.out.println("   20! = " + MathUtil.getFactorial(20));
+
         tryTDDFirst();
     }
 
     public static void tryTDDFirst() {
-        //xai method vua viet
-        //so sanh 2 gia tri de kiem thu method chay dung ko??
-        //3 thu nay to hop nen 1 thu goi la Test Case - tinh huong xai method
-
         //Test case #1
         //n=0 hy vong method tra ve 1
         // thuc te = ????
