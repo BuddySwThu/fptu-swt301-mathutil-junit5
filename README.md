@@ -3,13 +3,13 @@
 # Welcome to Math-Util Repository
 ### You will find in this repo the following stuff:
     * The Math-Util library that offers multiple math functions (a java-based source code)
-    * Unit Testing test script using JUnit5 framework
+    * Unit Testing test-script using JUnit5 framework
     * Build script using Maven build tool
-    * GitHub Actionc to demostrate the Cotinuous Integration (CI) technique
-    * Regression Test
+    * GitHub-Action to demostrate the Cotinuous Integration (CI) technique
+    * Regression Test technique
     * . . .
 
-### Screenshots
+### Screenshot
 ![DDT && TDD with JUnit5](https://github.com/BuddySwThu/mathutil-junit5-maven/blob/main/img/DDTandTDD-with-JUnit5.PNG)
 
 ### Connect me via baontse150486@fpt.edu.vn
