@@ -1,10 +1,9 @@
 package per.budictreas.jebew.core;
 
+import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
-//import org.junit.jupiter.api.function.Executable;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.MethodSource;
-import org.junit.jupiter.api.Assertions;
 
 public class MathUtilDDTTest {
     //chơi DDT, tách data ra khỏi câu lệnh kiểm thử, tham số hoá data này
