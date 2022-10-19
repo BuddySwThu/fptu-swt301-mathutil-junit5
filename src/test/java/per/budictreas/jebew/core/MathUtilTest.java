@@ -86,7 +86,7 @@ public class MathUtilTest {
     }
 
     @Test
-    @SuppressWarnings("ResultOfMethodCallIgnored")
+    //@SuppressWarnings("ResultOfMethodCallIgnored")
     public void testFactorialGivenWrongArgumentThrowsException() {
         //Test case #8: kiem thu tinh huong -5!
         //n=-5, hy vong ham quang loi
