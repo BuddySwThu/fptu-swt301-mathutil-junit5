@@ -12,13 +12,11 @@ on:
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs: # Những công việc dev làm thường ngày: lấy code, build, chạy test, đóng gói, gửi build...
   # This workflow contains a single job called "build"
-  build:
-    # The type of runner that the job will run on
+  build: # The type of runner that the job will run on
     runs-on: ubuntu-latest
 
     # Steps represent a sequence of tasks that will be executed as part of the job
-    steps:
-      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+    steps: # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - name: Check-out repository # Lấy code từ kho thảy vào máy ảo của GitHub chuẩn bị build ở bước sau
         uses: actions/checkout@v3
 
