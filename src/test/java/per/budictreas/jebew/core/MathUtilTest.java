@@ -7,6 +7,11 @@ import org.junit.jupiter.api.Test;
  * @author giao.lang
  */
 public class MathUtilTest {
+    //ki thuat lap trinh kieu moi
+    //ki thuat TDD - Test Driven Development
+    //viet code cho method va viet code de test code song song voi nhau
+    //moi method duoc viet ra phai viet ngay test case
+
     @Test
     public void tryJUnitFirst() {
         Assertions.assertEquals(69, 69);
@@ -93,9 +98,4 @@ public class MathUtilTest {
         //long result = MathUtil.getFactorial(-5);
         Assertions.assertThrows(IllegalArgumentException.class, () -> MathUtil.getFactorial(-5));
     }
-
-    //DDT - Data Driven Testing
-    //Tach bo data o tren (expected - actual) gom vao 1 cho
-    //fill bo data tuan tu vao cho kiem thu sau
-    //ki thuat tach code test ra khoi data duoc goi la ki thuat viet test case theo kieu tham so hoa PARAMETERIZED
 }

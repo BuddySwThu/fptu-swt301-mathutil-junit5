@@ -6,8 +6,10 @@ import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.MethodSource;
 
 public class MathUtilDDTTest {
-    //chơi DDT, tách data ra khỏi câu lệnh kiểm thử, tham số hoá data này
-    //vào trong câu lệnh kiểm thử
+    //DDT - Data Driven Testing
+    //Tach bo data o tren (expected - actual) gom vao 1 cho
+    //fill bo data tuan tu vao cho kiem thu sau
+    //ki thuat tach code test ra khoi data duoc goi la ki thuat viet test case theo kieu tham so hoa PARAMETERIZED
 
     //chuẩn bị bộ data
     public static Object[][] initData() {

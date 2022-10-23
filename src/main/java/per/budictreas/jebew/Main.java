@@ -32,7 +32,7 @@ public class Main {
         System.out.println("   2! Status:\n\t    Expected = " + expected
                 + "  |  Actual = " + actual + "\n");
 
-        //Test case #3
+        //Test case #4
         //n=3 hy vong method tra ve 3
         expected = 6;
         actual = MathUtil.getFactorial(3);
