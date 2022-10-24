@@ -6,7 +6,7 @@
 
     <groupId>per.budictreas.jebew</groupId>
     <artifactId>mathutil-junit5-maven</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.0</version>
     <name>mathutil-junit5-maven</name>
     <packaging>jar</packaging>
 
