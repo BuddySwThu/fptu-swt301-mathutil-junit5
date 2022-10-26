@@ -1,6 +1,6 @@
 package per.budictreas.jebew.core;
 
-import org.junit.jupiter.api.Assertions;
+import static org.junit.jupiter.api.Assertions.*;
 import org.junit.jupiter.api.Test;
 
 /**
@@ -14,7 +14,7 @@ public class MathUtilTest {
 
     @Test
     public void tryJUnitFirst() {
-        Assertions.assertEquals(69, 69);
+        assertEquals(69, 69);
     }
 
     // ten ham Test bao ham luon y nghia test cai gi
@@ -27,7 +27,7 @@ public class MathUtilTest {
         long expected = 1;
         long actual = MathUtil.getFactorial(0);
         //so sanh 2 gia tri co tuong dong??
-        Assertions.assertEquals(expected, actual);
+        assertEquals(expected, actual);
     }
 
     @Test
@@ -37,7 +37,7 @@ public class MathUtilTest {
         long expected = 1;
         long actual = MathUtil.getFactorial(1);
         //so sanh 2 gia tri co tuong dong??
-        Assertions.assertEquals(expected, actual);
+        assertEquals(expected, actual);
     }
 
     @Test
@@ -47,7 +47,7 @@ public class MathUtilTest {
         long expected = 2;
         long actual = MathUtil.getFactorial(2);
         //so sanh 2 gia tri co tuong dong??
-        Assertions.assertEquals(expected, actual);
+        assertEquals(expected, actual);
     }
 
     @Test
@@ -57,7 +57,7 @@ public class MathUtilTest {
         long expected = 6;
         long actual = MathUtil.getFactorial(3);
         //so sanh 2 gia tri co tuong dong??
-        Assertions.assertEquals(expected, actual);
+        assertEquals(expected, actual);
     }
 
     @Test
@@ -67,7 +67,7 @@ public class MathUtilTest {
         long expected = 24;
         long actual = MathUtil.getFactorial(4);
         //so sanh 2 gia tri co tuong dong??
-        Assertions.assertEquals(expected, actual);
+        assertEquals(expected, actual);
     }
 
     @Test
@@ -77,7 +77,7 @@ public class MathUtilTest {
         long expected = 120;
         long actual = MathUtil.getFactorial(5);
         //so sanh 2 gia tri co tuong dong??
-        Assertions.assertEquals(expected, actual);
+        assertEquals(expected, actual);
     }
 
     @Test
@@ -87,7 +87,7 @@ public class MathUtilTest {
         long expected = 720;
         long actual = MathUtil.getFactorial(6);
         //so sanh 2 gia tri co tuong dong??
-        Assertions.assertEquals(expected, actual);
+        assertEquals(expected, actual);
     }
 
     @Test
@@ -96,6 +96,6 @@ public class MathUtilTest {
         //Test case #8: kiem thu tinh huong -5!
         //n=-5, hy vong ham quang loi
         //long result = MathUtil.getFactorial(-5);
-        Assertions.assertThrows(IllegalArgumentException.class, () -> MathUtil.getFactorial(-5));
+        assertThrows(IllegalArgumentException.class, () -> MathUtil.getFactorial(-5));
     }
 }

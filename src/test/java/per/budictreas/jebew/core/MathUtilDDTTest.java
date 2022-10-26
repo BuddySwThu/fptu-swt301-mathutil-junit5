@@ -1,6 +1,6 @@
 package per.budictreas.jebew.core;
 
-import org.junit.jupiter.api.Assertions;
+import static org.junit.jupiter.api.Assertions.*;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.MethodSource;
@@ -20,7 +20,7 @@ public class MathUtilDDTTest {
     @MethodSource(value = "initData")
     //tên hàm cung cấp data, ngầm định thứ tự của các phần tử mảng, map vào tham số hàm
     public void testGetFactorialGivenRightArgReturnsWell(int input, long expected) {
-        Assertions.assertEquals(MathUtil.getFactorial(input), expected);
+        assertEquals(MathUtil.getFactorial(input), expected);
     }
 
 //    @Test
@@ -39,6 +39,6 @@ public class MathUtilDDTTest {
         //chơi chậm
 
         //Executable exObject = () -> MathUtil.getFactorial(-5);
-        Assertions.assertThrows(IllegalArgumentException.class, () -> MathUtil.getFactorial(-5));
+        assertThrows(IllegalArgumentException.class, () -> MathUtil.getFactorial(-5));
     }
 }
